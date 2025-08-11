@@ -150,8 +150,8 @@ async def main():
     target_device = "200.0.0.162"
     object_id = ("analogOutput", 1)
     property_id = "presentValue"
-    value = 42.5
-    priority = 16
+    value = 43
+    priority = 1
     
     # 쓰기 실행
     await write_single_value(target_device, object_id, property_id, value, priority)
